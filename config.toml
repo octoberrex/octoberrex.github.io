@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "term"]
     { recon = { href = "https://www.recon.com/octoberrex", text = "Recon"} },
     { bluesky = "https://bsky.app/profile/octoberrex.bsky.social" },
     { switched = { href = "", text = "Switched | octoberrex"} },
-
+    { sneakerbase = { href = "https://sneakerbase.de/core/user/31326-octoberrex/" , text = "Sneakerbase"}} ,
 
     # { mastodon = "https://mastodon.instance/@username" },
     # { email = "mailto:hello@your_domain.com" },
