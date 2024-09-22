@@ -25,4 +25,7 @@
     {{ if templates.Exists "partials/extend-footer.html" }}
       {{ partialCached "extend-footer.html" . }}
     {{ end }}
+    
+    <!-- Include Cloudflare Web Analytics -->
+    {{ partial "cloudflare_analytics.html" . }}
   </footer>
