@@ -1,29 +1,15 @@
-.link-font-awesome {
-    background: rgb(131, 58, 180);
-    background: linear-gradient(
-      90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%
-    );
-  }
-
 .link-recon {
     background: rgb(255, 0, 0);
-    /* background: linear-gradient(
-      90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%
-    ); */
   }
 
-  .link-switched {
-    background: rgb(197, 169, 7);
-    /* background: linear-gradient(
-      90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%
-    ); */
+.link-switched {
+    background: rgb(226, 136, 0);
+  }
+
+.link-sneakerbase {
+    background: rgb(239, 7, 253);
+  }
+
+.link-secondskin {
+    background: rgb(0, 0, 0);
   }
