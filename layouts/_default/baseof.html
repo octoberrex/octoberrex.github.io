@@ -10,6 +10,6 @@
     <main class="flex-grow">{{- block "main" . }}{{- end }}</main>
     <!-- Include Cloudflare Web Analytics -->
     {{ partial "cloudflare_analytics.html" . }}
-    {{- partial "footer.html" . -}}
+    {{ partial "footer.html" . -}}
   </body>
 </html>

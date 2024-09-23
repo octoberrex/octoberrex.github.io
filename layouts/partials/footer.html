@@ -10,7 +10,7 @@
           {{ .Site.Author.name | markdownify | emojify }}
         {{- end }}
       </p>
-      {{/* Theme attribution */}}
+      <!-- {{/* Theme attribution */}} -->
       {{ if .Site.Params.attribution | default true }}
         <p class="text-xs text-neutral-500 dark:text-neutral-400">
           {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
@@ -25,7 +25,4 @@
     {{ if templates.Exists "partials/extend-footer.html" }}
       {{ partialCached "extend-footer.html" . }}
     {{ end }}
-    
-    <!-- Include Cloudflare Web Analytics -->
-    {{ partial "cloudflare_analytics.html" . }}
   </footer>
