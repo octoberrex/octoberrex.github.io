@@ -68,11 +68,11 @@
   "analytics.html" . }} {{/* Extend head - eg. for custom analytics scripts,
   etc. */}} {{ if templates.Exists "partials/extend-head.html" }} {{
   partialCached "extend-head.html" .Site }} {{ end }}
-  <!-- Cloudflare Web Analytics -->
+  <!-- Umami Web Analytics -->
   <script
     defer
-    src="https://static.cloudflareinsights.com/beacon.min.js"
-    data-cf-beacon='{"token": "630a697a177e4932b9e94a0e59eb5248"}'
+    src="https://cloud.umami.is/script.js"
+    data-website-id="b20d0dce-c14c-45ae-aa9c-ad17d7ce8013"
   ></script>
-  <!-- End Cloudflare Web Analytics -->
+  <!-- End Umami Web Analytics -->
 </head>
