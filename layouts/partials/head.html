@@ -5,6 +5,15 @@
   {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Umami Web Analytics -->
+  <script
+    defer
+    src="https://cloud.umami.is/script.js"
+    data-website-id="776ed3bb-2cb5-4e28-b675-496b03779a9b"
+  ></script>
+  <!-- End Umami Web Analytics -->
+   
   {{/* Title */}} {{ if .IsHome -}}
   <title>{{ .Site.Title }}</title>
   <meta name="title" content="{{ .Site.Title }}" />
@@ -68,5 +77,4 @@
   "analytics.html" . }} {{/* Extend head - eg. for custom analytics scripts,
   etc. */}} {{ if templates.Exists "partials/extend-head.html" }} {{
   partialCached "extend-head.html" .Site }} {{ end }}
-
 </head>
