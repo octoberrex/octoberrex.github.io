@@ -17,7 +17,7 @@ disableKinds = ["taxonomy", "term"]
     { twitter = "https://twitter.com/octoberrex" },
     { recon = { href = "https://www.recon.com/octoberrex", text = "Recon"} },
     { bluesky = "https://bsky.app/profile/octoberrex.bsky.social" },
-    { switched = { href = "", text = "Switched | octoberrex"} },
+    { switched = { href = "https://switchedapp.com/@octoberrex", text = "Switched | octoberrex"} },
     { sneakerbase = { href = "https://sneakerbase.de/core/user/31326-octoberrex/" , text = "Sneakerbase"}} ,
     { secondskin = { href = "https://secondskin.co/en/octoberrex" , text = "Second Skin"}} ,
 
