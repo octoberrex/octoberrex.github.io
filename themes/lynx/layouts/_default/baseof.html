@@ -1,16 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
   {{- partial "head.html" . -}}
   <body
     class="bg-neutral m-auto flex h-screen max-w-7xl flex-col px-6 text-lg leading-7 text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-white"
   >
-    <!-- Cloudflare Web Analytics test -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "8411ff722f4a4c6bb5f6fcf901de9789"}'
-    ></script>
-    <!-- End Cloudflare Web Analytics -->
     <main class="flex-grow">{{- block "main" . }}{{- end }}</main>
     {{- partial "footer.html" . -}}
   </body>
