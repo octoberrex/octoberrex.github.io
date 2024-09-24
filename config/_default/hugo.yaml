@@ -1,0 +1,29 @@
+baseURL: https://octoberrex.github.io
+languageCode: en-us
+title: "octoberrex"
+
+module:
+  imports:
+    - disable: false
+      path: "lynx"
+
+theme: 
+- 'lynx'
+
+# copyright: "Copy, _right?_ :thinking_face:"
+
+enableEmoji: true
+disableKinds: ["taxonomy", "term"]
+
+params:
+  author:
+    name: "Octoberrex"
+    headline: "🇨🇦⛓️⬇️ Toronto bondage sub | ❤️ 🩲 🧦 👟 sk8erboys 🛹 & my bf 👨‍❤️‍👨"
+    image: "img/p1.jpg"  # path relative to static directory
+    links:
+      - twitter: "https://twitter.com/octoberrex"
+      - recon: { href: "https://www.recon.com/octoberrex", text: "Recon" }
+      - bluesky: "https://bsky.app/profile/octoberrex.bsky.social"
+      - switched: { href: "", text: "Switched | octoberrex" }
+      - sneakerbase: { href: "https://sneakerbase.de/core/user/31326-octoberrex/" , text: "Sneakerbase"}
+      - secondskin: { href: "https://secondskin.co/en/octoberrex" , text: "Second Skin"}
