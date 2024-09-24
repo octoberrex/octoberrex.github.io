@@ -14,14 +14,12 @@
 
     <!-- Banner Section -->
     {{ if .Site.Params.author.banner }}
-    <div class="banner">
-      <img
-        src="{{ .Site.Params.author.banner }}"
-        alt="Banner"
-        class="w-full h-auto"
-      />
+    <div class="w-screen mx-auto">
+      <img src="{{ .Site.Params.author.banner }}" alt="Banner" class="w-full h-auto" />
     </div>
     {{ end }}
+    <!-- End Banner Section -->
+
     <main class="flex-grow">{{- block "main" . }}{{- end }}</main>
     {{- partial "footer.html" . -}}
   </body>
