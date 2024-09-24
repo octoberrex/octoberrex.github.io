@@ -7,7 +7,7 @@ on:
     branches:
       - main
       - dev
-      - dev-banner-test
+      # - dev-banner-test
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
