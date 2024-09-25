@@ -11,6 +11,16 @@
       data-cf-beacon='{"token": "4b0c7f66c8324947917e66281720b888"}'
     ></script>
     <!-- End Cloudflare Web Analytics -->
+
+    <!-- Banner Section -->
+    {{ if .Site.Params.author.banner }}
+    <div class="w-screen mx-auto">
+
+    <img src="{{ .Site.Params.author.banner }}" alt="Banner" class="w-full h-auto object-cover" />
+    </div>
+    {{ end }}
+    <!-- End Banner Section -->
+
     <main class="flex-grow">{{- block "main" . }}{{- end }}</main>
     {{- partial "footer.html" . -}}
   </body>

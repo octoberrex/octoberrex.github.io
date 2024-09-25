@@ -20,6 +20,9 @@ params:
     name: "Octoberrex"
     headline: "🇨🇦⛓️⬇️ Toronto bondage sub | ❤️ 🩲 🧦 👟 sk8erboys 🛹 & my bf 👨‍❤️‍👨"
     image: "img/p1.jpg"  # path relative to static directory
+
+    banner: "img/banner.jpg"  # path relative to static directory
+
     links:
       - twitter: "https://twitter.com/octoberrex"
       - recon: { href: "https://www.recon.com/octoberrex", text: "Recon" }
